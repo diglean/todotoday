@@ -41,7 +41,7 @@ A aplicação oferece uma interface simples e funcional, permitindo que você or
    ```
 5. Configurar o .env da aplicação
    ```bash
-   cp .env-bkp .env-2
+   cp .env-bkp .env
    ```
 
 6. Execute as migrations:
