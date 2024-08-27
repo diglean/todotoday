@@ -40,7 +40,12 @@ A aplicação oferece uma interface simples e funcional, permitindo que você or
    npm install
    ```
 
-5. Inicie o modo de desenvolvimento do Tailwind CSS:
+5. Execute as migrations:
+   ```bash
+   docker exec -it setup-php bash -c "php artisan migrate"
+   ```
+
+6. Inicie o modo de desenvolvimento do Tailwind CSS:
    ```bash
    npm run dev
    ```
