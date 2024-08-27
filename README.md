@@ -39,13 +39,17 @@ A aplicação oferece uma interface simples e funcional, permitindo que você or
    composer install
    npm install
    ```
+5. Configurar o .env da aplicação
+   ```bash
+   cp .env-bkp .env-2
+   ```
 
-5. Execute as migrations:
+6. Execute as migrations:
    ```bash
    docker exec -it setup-php bash -c "php artisan migrate"
    ```
 
-6. Inicie o modo de desenvolvimento do Tailwind CSS:
+7. Inicie o modo de desenvolvimento do Tailwind CSS:
    ```bash
    npm run dev
    ```
